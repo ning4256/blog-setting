@@ -90,11 +90,12 @@ public class Puppy {
 
 **整型、常量、字符型**可以混合运算，不同类型先转化为同一类型，然后进行运算，转换从低级到高级。
 
-##  变量类型
+###  变量类型
 
 - 类变量：独立于方法之外的变量，用`static`修饰。
 - 实例变量：独立于方法之外的变量，**不要**`static`修饰。
 - 局部变量：类的方法之中的变量。
+  
 ```
 public class Variable {
   static  int a = 0;  //类变量
@@ -104,3 +105,9 @@ public class Variable {
   }
 }
 ```
+
+### 循环
+1.  for循环
+2.  while循环
+3.  do while循环
+4.  foreach
